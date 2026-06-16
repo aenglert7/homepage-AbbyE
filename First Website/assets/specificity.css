@@ -1,0 +1,45 @@
+body {
+    background-color:burlywood;
+}
+
+h1 {
+    font-weight:normal;
+}
+
+header {
+    margin:20px;
+    background-color:darkorange;
+    padding:20px;
+    border:1px solid;
+}
+
+/* base tag in the least spacific */
+main {
+    margin:20px;
+    padding:20px;
+    border:1px solid;
+    background-color:chocolate;
+}
+
+/* classes are more spacific then the base tage but less spacific than an id */
+.class {
+    background-color:thistle;
+}
+
+/* id is the most spacific */
+#id {
+    background-color:limegreen
+}
+
+footer {
+    margin:20px;
+    padding:20px;
+    border:1px solid;
+
+    background-color:lightgreen
+}
+
+/* styles lower in the css document are more spacific then styles declared above */
+footer {
+    background-color:hotpink
+}

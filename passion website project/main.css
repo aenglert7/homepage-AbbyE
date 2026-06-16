@@ -1,0 +1,36 @@
+h1 {
+    font-size:60px;
+    color:saddlebrown;
+    font-weight:bold;
+    font-style:normal;
+    text-align:center;
+}
+
+P {
+    color:olivedrab;
+    background-color:burlywood;
+    font-size:30px;
+    border:5px dotted;
+
+    /* padding is for internal element spacing*/
+    padding:10px;
+
+    /* margin is for external spacing of elements */
+    margin:20px;
+
+    font-weight:lighter;
+    line-height:40px;
+    letter-spacing:2px;
+    font-style:oblique;
+    text-align:center;
+}
+
+a {
+    background-color:olivedrab;
+    color:khaki;
+    text-decoration:none;
+}
+a:hover {
+    background-color:darkgoldenrod;
+    color:beige
+}

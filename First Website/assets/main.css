@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Ouvrieres soldates';
+    src: url('ouvrieres-soldates.woff2') format('woff2'),
+        url('ouvrieres-soldates.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color:#f1af97;
+    background-image: url("butterfly.webp");
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-family:monospace;
+}
+
+P {
+    color:salmon;
+    background-color:saddlebrown;
+    font-size:25px;
+    border:20px dotted orange;
+
+    /* padding is for internal element spacing*/
+    padding:10px;
+
+    /* margin is for external spacing of elements */
+    margin:20px;
+
+    font-weight:bold;
+    line-height:20px;
+    letter-spacing:2px;
+    font-style:italic;
+}
+
+p:hover {
+    background-color:gold;
+}
+
+h1 {
+    color:#d5116380;
+    font-family: "iosevka charon", "menlo", monospace;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+h2 {
+    font-family: 'ouvrieres soldates';
+}
+
+.banner {
+    background-color:#e6e691;
+    font-size:40px;
+    text-align:center;
+}
+
+a {
+    background-color:darkgoldenrod;
+    color:khaki;
+    text-decoration:none;
+}
+a:hover {
+    background-color:khaki;
+    color:beige
+}

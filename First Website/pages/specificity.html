@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>specificity exercise</title>
+        <link rel="stylesheet" href="../assets/specificity.css">
+        <style>
+            /* embedded styles are more specific then external, but less specific than inline */
+            header {
+                background-color:maroon;
+            }
+        </style>
+    </head>
+
+    <body>  
+        <h1>specificity</h1>
+
+        <!-- inline styles are the most specific -->
+        <header style="background-color:plum">
+            stylesheet specificity: <br>
+            external < embedded < inline
+        </header>
+
+        <main class="class" id="id">
+            identifier specificity <br>
+            tage < class < id
+        </main>
+
+        <footer>
+            location specificity: <br>
+            higher < lower
+        </footer>
+
+
+    </body>
+</html>
