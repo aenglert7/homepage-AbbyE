@@ -1,3 +1,39 @@
 body{
-    background-color:seagreen
+    background-color:darkseagreen;
+}
+
+h1 {
+    font-size:60px;
+    color:darkgreen;
+    font-weight:bold;
+    font-style:normal;
+    text-align:center;
+}
+
+P {
+    color:darkgreen;
+    background-color:lightgreen;
+    font-size:20px;
+    border:3px solid;
+
+    /* padding is for internal element spacing*/
+    padding:5px;
+
+    /* margin is for external spacing of elements */
+    margin:10px;
+
+    font-weight:lighter;
+    line-height:30px;
+    letter-spacing:2px;
+    font-style:initial;
+}
+
+a {
+    background-color:darkgreen;
+    color:lightgreen;
+    text-decoration:none;
+}
+a:hover {
+    background-color:lightgreen;
+    color:darkgreen;
 }

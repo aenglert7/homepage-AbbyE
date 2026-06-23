@@ -1,0 +1,21 @@
+body {
+    background-color:darkseagreen;
+}
+
+h1 {
+    font-size:60px;
+    color:darkgreen;
+    font-weight:bold;
+    font-style:normal;
+    text-align:center;
+}
+
+a {
+    background-color:darkgreen;
+    color:lightgreen;
+    text-decoration:none;
+}
+a:hover {
+    background-color:lightgreen;
+    color:darkgreen;
+}
