@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkred;
+}
+
+img {
+    max-width:100%;
+}
+
+
+.responsive {
+    background-color:gold;
+    max-width:800px;
+    margin: 0 auto;
+    padding:10px;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        background-color:goldenrod;
+    }
+    .responsive {
+        background-color:lightgoldenrodyellow;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color:orange;
+    }
+
+    .responsive {
+        background-color:orangered;
+    }
+}
